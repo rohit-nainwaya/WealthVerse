@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: column; /* Stack Navbar, content, and Footer vertically */
+  flex: 1;                /* Allow the content area to grow */
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1; /* Push the footer to the bottom */
+}
